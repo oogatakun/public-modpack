@@ -8,19 +8,19 @@
   },
   "servers": [
     {
-      "id": "バニラ-1.19.2",
-      "name": "バニラ (Minecraft 1.19.2)",
-      "description": "バニラ Running Minecraft 1.19.2 (Forge v43.4.0)",
+      "id": "バニラ1.19.2-1.19.2",
+      "name": "バニラ1.19.2 (Minecraft 1.19.2)",
+      "description": "Forge v43.4.0",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.19.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "tyaromarslauncher",
+        "largeImageText": "バニラ1.19.2",
+        "largeImageKey": "https://github.com/oogatakun/tyaromars-launcher-icon/blob/main/%E3%83%90%E3%83%8B%E3%83%A9.png?raw=true"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
@@ -33,6 +33,264 @@
             "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.19.2-43.4.0/forge-1.19.2-43.4.0-installer.jar"
           },
           "subModules": []
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46991,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          }
+        },
+        {
+          "id": "com.vladmarica:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15920,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/BetterPingDisplay-1.19-1.1.jar",
+            "MD5": "ae1741be4e3b8a0bfa9503d554d5c2ff"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.13@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 259884,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/chat_heads-0.13.13-forge-1.19.2.jar",
+            "MD5": "38ccf3c9def7e326da2b19108ef72bf5"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:10.0+7@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117659,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/Controlling-forge-1.19.2-10.0+7.jar",
+            "MD5": "a1806659c98d659f6daad51a6673671a"
+          }
+        },
+        {
+          "id": "dev.lambdaurora.lambdynlights:dynamiclightsreforged:1.19.2_v1.4.0@jar",
+          "name": "Rubidium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90207,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/dynamiclightsreforged-1.19.2_v1.4.0.jar",
+            "MD5": "67f6b3118439adc4e56724c78001e981"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18.1+mc1.19.2@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1578835,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/embeddium-0.3.18.1+mc1.19.2.jar",
+            "MD5": "634c15fb16f76965938dc80b2b4fda9f"
+          }
+        },
+        {
+          "id": "io.github.reserveword:imblocker:3.1.2@jar",
+          "name": "IMBlocker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28525,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/imblocker-1.19.2-3.1.2.jar",
+            "MD5": "6c669475ae7eb8c6a3918975097471e2"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:11.8.1.1034@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1177872,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/jei-1.19.2-forge-11.8.1.1034.jar",
+            "MD5": "98d31def2ac964ae99575ccb329d8538"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.23@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75983,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/MouseTweaks-forge-mc1.19-2.23.jar",
+            "MD5": "855222f31f7a2ebfe84cd57480b9e011"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.19.2-v1.5.1@jar",
+          "name": "No Chat Reports",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204615,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/NoChatReports-FORGE-1.19.2-v1.5.1.jar",
+            "MD5": "05dcb9bf88cd31a942ea8b686ddca0de"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "com.matyrobbrt:okzoomer:2.1.1@jar",
+          "name": "OkZoomer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 120083,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/okzoomer-forge-1.19-2.1.1.jar",
+            "MD5": "8d89bf58bf89ccaab83c3cfbb0a9670c"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511586,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/radium-0.8.2.jar",
+            "MD5": "c764d38f2e1d1293f705449cb6f485bf"
+          }
+        },
+        {
+          "id": "technicianlp.reauth:reauth:4.0.7@jar",
+          "name": "ReAuth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 172955,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/ReAuth-1.19-Forge-4.0.7.jar",
+            "MD5": "2dea01dcabc1537ae2ce71894c9c8fee"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "io.github.lgatodu47:screenshot_viewer:1.1.3-forge-mc1.19x@jar",
+          "name": "Screenshot Viewer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 71256,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/screenshot_viewer-1.1.3-forge-mc1.19x.jar",
+            "MD5": "210111acba4e281c2eb836a5bd6ece25"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options:textrues_embeddium_options:0.1.1+mc1.19.2@jar",
+          "name": "TexTrue's Embeddium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 132729,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/forgemods/required/textrues_embeddium_options-0.1.1+mc1.19.2.jar",
+            "MD5": "0bc5bc5d8c008b731893f31f40e2c1a4"
+          }
+        },
+        {
+          "id": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "name": "Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 49129,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip",
+            "MD5": "55972821247560334f8009f7f6d02070",
+            "path": "resourcepacks/Midnighttiggers-MCT-Default_1.19.2_V1.zip"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json",
+            "MD5": "03096ab9d8f530aefdc701c30031d84b",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/embeddium/lang/ja_jp.json"
+          }
+        },
+        {
+          "id": "ja_jp.json",
+          "name": "ja_jp.json",
+          "type": "File",
+          "artifact": {
+            "size": 12210,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json",
+            "MD5": "4dc92e4df76908fe7638f669a818e06a",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/assets/sodium/lang/ja_jp.json"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.mcmeta",
+            "MD5": "aad7373109f52651965478784bb03d1b",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 21108,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png",
+            "MD5": "fbc1413ed605064b9920339159ed9e60",
+            "path": "resourcepacks/embeddium-0.3.1mc1.20.1_mc1_20_1_mine-tech_20240302/pack.png"
+          }
+        },
+        {
+          "id": "BSL_v8.2.09.zip",
+          "name": "BSL_v8.2.09.zip",
+          "type": "File",
+          "artifact": {
+            "size": 954784,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/BSL_v8.2.09.zip",
+            "MD5": "4443556b4e0d63394f0df1297e484454",
+            "path": "shaderpacks/BSL_v8.2.09.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.zip",
+          "name": "BSL_v8.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 925936,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/BSL_v8.2.zip",
+            "MD5": "f8ccfb82d095d74a16062fb2b37444ff",
+            "path": "shaderpacks/BSL_v8.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 442386,
+            "url": "https://raw.githubusercontent.com/oogatakun/public-modPack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A91.19.2-1.19.2/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "MD5": "0eee0a58a691363ef57366fd562a7ab3",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+          }
         }
       ]
     }
